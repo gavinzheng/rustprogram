@@ -1,0 +1,16 @@
+[package]
+name = "rustorm-derive"
+version = "0.1.0"
+authors = ["Jovansonlee Cesar <ivanceras@gmail.com>"]
+license = "MIT"
+description = "procedural macro code generator for rustorm"
+repository = "https://github.com/ivanceras/rustorm"
+documentation = "https://docs.rs/rustorm-derive"
+keywords = ["rustorm"]
+
+[dependencies]
+syn = "0.10.5"
+quote = "0.3.10"
+
+[lib]
+proc-macro = true
