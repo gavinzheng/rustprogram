@@ -292,6 +292,9 @@ A curated list of amazingly awesome awesomeness.
 	- [Xamarin](https://github.com/benoitjadinon/awesome-xamarin)
 	- [Typography](https://github.com/Jolg42/awesome-typography)
 
+[Privacy]https://github.com/Mikerah/awesome-privacy-on-blockchains
+[ZKP]https://github.com/matter-labs/awesome-zero-knowledge-proofs
+
 ## License
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
