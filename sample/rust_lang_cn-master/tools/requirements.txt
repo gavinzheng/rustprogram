@@ -1,4 +1,0 @@
-gevent
-requests
-redis
-Jinja2
