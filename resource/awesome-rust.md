@@ -953,6 +953,8 @@ See also [Are we web yet?](http://www.arewewebyet.org) and [Rust web framework c
 * [RustBooks](https://github.com/sger/RustBooks) — list of RustBooks
 
 
+https://github.com/rust-unofficial/awesome-rust#emulators
+
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
