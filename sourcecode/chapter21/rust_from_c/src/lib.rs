@@ -5,9 +5,9 @@ use std::os::raw::c_char;
 
 #[repr(C)]
 pub enum Order {
-    Gt,
-    Lt,
-    Eq
+    Greaterthan,
+    Lessthan,
+    Equal
 }
 
 #[no_mangle]
@@ -15,10 +15,10 @@ pub extern "C" fn compare_str(a: *const c_char, b: *const c_char) -> Order {
     let a = unsafe { CStr::from_ptr(a).to_bytes() };
     let b = unsafe { CStr::from_ptr(b).to_bytes() };
     if a > b {
-        Order::Gt
+        Order::Greaterthan
     } else if a < b {
-        Order::Lt
+        Order::Lessthan
     } else {
-        Order::Eq
+        Order::Equal
     }
 }
