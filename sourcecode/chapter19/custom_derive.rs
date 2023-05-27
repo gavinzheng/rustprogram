@@ -1,5 +1,5 @@
 #[macro_use]
-extern crate chapter_five_derive;
+extern crate helloworldderive;
 
 // trait definitions have to be in "consumer" crate
 trait HelloWorld {

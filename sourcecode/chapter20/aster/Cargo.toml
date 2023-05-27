@@ -10,4 +10,4 @@ nightly = []
 [dependencies]
 aster = { version = "*", default_features = false }
 syntex_syntax = { version = "*", optional = true }
-
+rustc-serialize = "0.3.24"

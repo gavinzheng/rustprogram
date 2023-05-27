@@ -9,3 +9,4 @@ syntex = "*"
 
 [build-dependencies.hello_plugin]
 path = "hello_plugin"
+rustc-serialize = "0.3.24"

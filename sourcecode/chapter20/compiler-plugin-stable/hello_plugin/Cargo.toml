@@ -6,3 +6,5 @@ authors = ["Vesa Kaihlavirta <vegai@iki.fi>"]
 [dependencies]
 syntex = "*"
 syntex_syntax = "*"
+#rustc-serialize = "*"
+rustc-serialize = "0.3.24"
