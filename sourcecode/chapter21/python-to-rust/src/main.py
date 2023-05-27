@@ -11,11 +11,11 @@ else:
     prefix = 'lib'
     ext = 'so'
 
-lib = cdll.LoadLibrary('target/debug/{}double_input.{}'.format(prefix, ext))
-double_input = lib.double_input
+lib = cdll.LoadLibrary('target/debug/{}triple_input.{}'.format(prefix, ext))
+triple_input = lib.triple_input
 
-input = 4
-output = double_input(input)
-print('{} * 2 = {}'.format(input, output))
+input = 5
+output = triple_input(input)
+print('{} * 3 = {}'.format(input, output))
 
 

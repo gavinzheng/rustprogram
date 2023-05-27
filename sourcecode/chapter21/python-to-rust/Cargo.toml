@@ -1,9 +1,9 @@
 [package]
 name = "python-to-rust"
 version = "0.1.0"
-authors = ["Vigneshwer.D <dvigneshwer@gmail.com>"]
+authors = ["Gavin Zheng <zy731@hotmail.com>"]
 
 [lib]
-name = "double_input"
+name = "triple_input"
 crate-type = ["dylib"]
 
