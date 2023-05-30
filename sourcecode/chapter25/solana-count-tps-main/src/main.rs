@@ -133,8 +133,8 @@ fn main() {
 
     log::info!("Solana count transactions per second!");
 
-    let client = RpcClient::new("https://solana-api.projectserum.com");
-
+    // let client = RpcClient::new("https://solana-api.projectserum.com");
+    let client = RpcClient::new("https://rpc.ankr.com/solana_devnet");
     let solana_version = client.get_version().unwrap().solana_core;
     log::info!("Solana version: {}", &solana_version);
 
