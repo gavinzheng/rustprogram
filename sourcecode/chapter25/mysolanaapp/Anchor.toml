@@ -1,0 +1,17 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+mysolanaapp = "3PjoUug1gj8Z7XjJGZpK9txfXJgBZCYStMwV5rS18fHv"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/work/solana-book/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 /work/rustprogram/sourcecode/chapter25/mysolanaapp/tests/"
+#test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 /tests/"
+#test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
