@@ -1,5 +1,7 @@
 [features]
 seeds = false
+[programs.localnet]
+postfeedapp = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
 [programs.devnet]
 postfeedapp = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
 
@@ -7,8 +9,8 @@ postfeedapp = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "devnet"
-wallet = "./id.json"
+cluster = "localnet"
+wallet = "/work/solana-book/id.json"
 
 [scripts]
 test = "yarn run mocha -t 1000000 tests/"
