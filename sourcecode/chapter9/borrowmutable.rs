@@ -4,7 +4,7 @@ fn main(){
   
   let mut var_a = String::from("This is a test");
   println!("{}",  var_a.len());
-  let var_b = &mut var_a;
+   let var_b = &mut var_a;
   // let mut var_b = &var_a;
   var_b.push('b');
  

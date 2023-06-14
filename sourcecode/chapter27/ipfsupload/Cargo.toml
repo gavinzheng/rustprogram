@@ -1,0 +1,13 @@
+[package]
+name = "ipfsupload"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#ipfs-api-backend-hyper = "0.6"
+#pinata-sdk = { git = "https://github.com/perfectmak/pinata-sdk.git" }
+pinata-sdk = "1.1.0"
+tokio = { version = "1.28.1", features = ["full"] }
+
