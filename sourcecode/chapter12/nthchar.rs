@@ -9,8 +9,10 @@ fn main() {
                 Some(c) => if pos == 1 { print!("{}", c); },
                 None => { break; },
             }
-            pos -= 1;
+            if pos >0 {
+                pos -= 1;
+            }
         }
     }
-    print_char_at("测试Rust", 2);
+    print_char_at("测试Rust", 3);
 }
