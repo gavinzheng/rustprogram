@@ -12,14 +12,14 @@ fn main() -> Result<(), Box<dyn Error + Send + Sync + 'static>> {
     println!("{}", ls_child.status()?);
 
     let env_child = Command::new("env")
-        .env("CANARY", "0x5ff")
+        .env("CANARY", "0x56f")
         .stdout(Stdio::piped())
         .spawn()?;
 
     let env_output = &env_child.wait_with_output()?;
     let canary = String::from_utf8_lossy(&env_output.stdout)
         .split_ascii_whitespace()
-        .filter(|line| *line == "CANARY=0x5ff")
+        .filter(|line| *line == "CANARY=0x56f")
         .count();
 
     // found it!
@@ -35,11 +35,11 @@ fn main() -> Result<(), Box<dyn Error + Send + Sync + 'static>> {
             .stdin
             .as_mut()
             .expect("Could not open stdin")
-            .write_all(b"0x5ff")?;
+            .write_all(b"0x56f")?;
     }
 
     let output = rev_child.wait_with_output()?;
-    assert_eq!(String::from_utf8_lossy(&output.stdout), "ff5x0");
+    assert_eq!(String::from_utf8_lossy(&output.stdout), "f65x0");
 
     Ok(())
 }
