@@ -5,22 +5,24 @@
     clippy::upper_case_acronyms
 )]
 
+
 #[macro_use]
 extern crate pest_derive;
 extern crate from_pest;
+
 #[macro_use]
 extern crate pest_ast;
 extern crate pest;
 
 use from_pest::FromPest;
-use pest::Parser;
 use pest_ast::FromPest;
+use pest::Parser;
 
 #[derive(Parser)]
 #[grammar = "./simple_struct_derives.pest"]
 pub struct SimpleParser;
 
-#[derive(Debug, FromPest)]
+#[derive(FromPest, Debug)]
 #[pest_ast(rule(Rule::S))]
 struct S<'pest> {
     #[pest_ast(outer())]
