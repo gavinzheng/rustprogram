@@ -1,18 +1,19 @@
 
 #![allow(warnings)]
-use ast::*;
+use pestzok::ast::*;
 use cfg_if::cfg_if;
 
 use pestzok::Compile;
 
-cfg_if! {
-    if #[cfg(feature = "default")] {
-        use pestzok::Jit as Engine;
-    }
-    else {
-        use pestzok::Interpreter as Engine;
-    }
-}
+//cfg_if! {
+//    if #[cfg(feature = "default")] {
+//        use pestzok::Jit as Engine;
+//    }
+//    else {
+//        use pestzok::Interpreter as Engine;
+//    }
+//}
+use pestzok::Jit as Engine;
 
 fn main() {
     let args: Vec<String> = std::env::args().collect();

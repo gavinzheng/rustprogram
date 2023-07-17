@@ -1,7 +1,7 @@
-// use inkwell::{
-//     builder::Builder, context::Context, execution_engine::JitFunction, types::IntType,
-//     values::AnyValue, values::IntValue, OptimizationLevel,
-// };
+use inkwell::{
+     builder::Builder, context::Context, execution_engine::JitFunction, types::IntType,
+     values::AnyValue, values::IntValue, OptimizationLevel,
+};
 
 use crate::{Compile,  Result};
 use crate::ast::*;
