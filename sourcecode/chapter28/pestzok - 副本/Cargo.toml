@@ -13,7 +13,6 @@ log = "0.4.6"
 pest_derive = "2.5"
 pest-ast = "0.3.3"
 from-pest="0.3.2"
-anyhow = "1.0"
 
 [[bin]]
 name = "pestzok"

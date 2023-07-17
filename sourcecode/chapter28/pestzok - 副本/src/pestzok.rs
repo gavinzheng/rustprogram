@@ -1,5 +1,5 @@
 
-#![allow(warnings)]
+
 use ast::*;
 use cfg_if::cfg_if;
 
@@ -15,19 +15,7 @@ cfg_if! {
 }
 
 fn main() {
-    let args: Vec<String> = std::env::args().collect();
-    if args.len() < 2 {
-        eprintln!("No input file was provided");
-        std::process::exit(-1);
-    }
-    // println!(
-    //     "{:?}",
-    //     Engine::from_source(&std::fs::read_to_string(&args[1]).unwrap()).unwrap()
-    // );
-    println!(
-        "{:?}",
-        Engine::from_source("def main() -> u8 { return 56;}").unwrap()
-    );
+    
 
     // let pairs = generate_ast(Rule::function_definition, "def main() -> u8 { return 56;}").unwrap_or_else(|e| panic!("{}", e));
     // println!("parse_tree: {:?}", pairs);
