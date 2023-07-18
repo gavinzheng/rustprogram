@@ -35,13 +35,13 @@ impl Compile for Jit {
                                         match w{
                                             LiteralExpression::DecimalLiteral(u)=>{
                                                 let ret = u.value.span.as_str().to_string().parse::<i32>().unwrap();
-                                                println!("return value :{} ret={}", u.value.span.as_str().to_string(),ret) ;
+                                                // println!("return value :{} ret={}", u.value.span.as_str().to_string(),ret) ;
                                         
                                                 let i32_type = context.i32_type();
                                                 let fn_type = i32_type.fn_type(&[], false);
                                         
-                                                //let function = module.add_function(&x.id.value, fn_type, None);
-                                                let function = module.add_function("jit", fn_type, None);
+                                                let function = module.add_function(&x.id.value, fn_type, None);
+                                                //let function = module.add_function("jit", fn_type, None);
                                                 let basic_block = context.append_basic_block(function, "entry");
                                         
                                                 builder.position_at_end(basic_block);
@@ -49,7 +49,7 @@ impl Compile for Jit {
                                                 let i32_type = context.i32_type();
                                                 let i32_val =  i32_type.const_int(ret as u64, false);
                                                 builder.build_return(Some(&i32_val));
-                                                println!("ret value = {}",i32_val);
+                                                // println!("ret value = {}",i32_val);
                                                 // for node in ast {
                                                 //     let recursive_builder = RecursiveBuilder::new(i32_type, &builder);
                                                 //     let return_value = recursive_builder.build(&node);
@@ -83,7 +83,7 @@ impl Compile for Jit {
         }
 
         unsafe {
-          let jit_function: JitFunction<JitFunc> = execution_engine.get_function("jit").unwrap();
+          let jit_function: JitFunction<JitFunc> = execution_engine.get_function("main").unwrap();
           Ok(jit_function.call())
         }
         /*let context = Context::create();
