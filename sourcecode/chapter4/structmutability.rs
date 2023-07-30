@@ -1,9 +1,9 @@
 struct S1 { 
-	field1: int, 
+	field1: i32, 
 	field2: S2 
 }
 struct S2 { 
-	field: int 
+	field: i32 
 }
 fn main() { 
 	let s = S1 { field1: 45, field2: S2 { field: 23 } }; 

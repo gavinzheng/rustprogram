@@ -1,3 +1,10 @@
+fn wait_for_process(process: &mut Process) -> i32 { 
+  while true { 
+      if process.wait() { 
+          return process.exit_code(); 
+      } 
+  } 
+} 
 fn main() {
   let abc: (f32, f32, f32) = (0.1, 0.2, 0.3);
   let xyz: (f64, f64, f64) = (0.1, 0.2, 0.3);
