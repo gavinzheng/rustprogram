@@ -7,8 +7,14 @@ use std::sync::Arc;
 use threadpool::ThreadPool;
 
 fn main() {
-    let pool = ThreadPool::with_name("my worker".to_owned(), num_cpus::get());
-    println!("Pool threads: {}", pool.max_count());
+    // let pool = ThreadPool::with_name("my worker".to_owned(), num_cpus::get());
+    // println!("Pool threads: {}", pool.max_count());
+
+    let ncpus = num_cpus::get();
+    println!("这台机器的CPU数目是: {}", ncpus);
+
+    let pool = ThreadPool::with_name("Worker".to_owned(), ncpus); 
+    println!("线程池 : {}", pool.max_count()); 
 
     let result = Arc::new(AtomicUsize::new(0));
 

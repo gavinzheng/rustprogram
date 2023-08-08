@@ -6,8 +6,10 @@ mod sports {
 
 // use sports::football; 
 //use crate::sports::football;
-use self::sports::Football;
+//use self::sports::Football;
+use self::sports::*;
 
 fn main() { 
   let playing = Football; 
+  let playing = Volleyball;
 }

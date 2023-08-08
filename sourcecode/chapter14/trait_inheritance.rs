@@ -24,6 +24,11 @@ impl Car for TeslaRoadster {
         "Tesla Roadster I".to_string()
     }
 }
+impl Vehicle for TeslaRoadster {
+    fn get_price(&self) -> u64 {
+    200_000
+    }
+}
 
 fn main() {
     let my_roadster = TeslaRoadster::new("Tesla Roadster II", 2020);
