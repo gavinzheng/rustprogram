@@ -1,0 +1,379 @@
+{
+	"info": {
+		"_postman_id": "e9c618b5-fcbc-430d-a0dd-ec6e1e1a3c21",
+		"name": "ZKPCC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DepositCCNote Success",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pk1\": \"0x26d264c0f94c7089a9be0782aba859f2977447f023085af54e02f0e1039fe3ce\",\r\n    \"pk2\": \"0x7bcc180572b26488368240bb84114cf42eed9e708a03f6f431555fd8e135092\",\r\n    \"amount\": \"0x1c9c380\",\r\n    \"fromassethash\":\"0x727B715a3EaCb71A89C9321861a55eadc6f29A49\",\r\n    \"tochainid\":79,\r\n    \"encryptednote\":\"0012345\",\r\n    \"fromchainid\" : 2,\r\n    \"userid\": 10\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8554/depositccnoteout",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8554",
+					"path": [
+						"depositccnoteout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DepositCCNote Cloud",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pk1\": \"0x26d264c0f94c7089a9be0782aba859f2977447f023085af54e02f0e1039fe3ce\",\r\n    \"pk2\": \"0x7bcc180572b26488368240bb84114cf42eed9e708a03f6f431555fd8e135092\",\r\n    \"amount\": \"0x1c9c380\",\r\n    \"fromassethash\":\"0x727B715a3EaCb71A89C9321861a55eadc6f29A49\",\r\n    \"tochainid\":79,\r\n    \"encryptednote\":\"0012345\",\r\n    \"fromchainid\" : 2,\r\n    \"userid\": 10\r\n}"
+				},
+				"url": {
+					"raw": "47.104.153.34:8554/depositccnoteout",
+					"host": [
+						"47",
+						"104",
+						"153",
+						"34"
+					],
+					"port": "8554",
+					"path": [
+						"depositccnoteout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DepositCCNote Success Copy 2",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pk1\": \"17559621506966228669946200908540191909304602050620774623186985148217036891086\",\r\n    \"pk2\": \"3499692685359225014642568034871893823673913644950320594232804843053171036306\",\r\n    \"amount\": \"5f5e100\",\r\n    \"fromassethash\":\"0x473850cB9b3Ee1225304834DE679521d7f21d52f\",\r\n    \"tochainid\":79,\r\n    \"encryptednote\":\"001\",\r\n    \"fromchainid\" : 2\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8554/depositccnoteout",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8554",
+					"path": [
+						"depositccnoteout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deposit CC Note 001",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pk1\": \"17559621506966228669946200908540191909304602050620774623186985148217036891086\",\r\n    \"pk2\": \"3499692685359225014642568034871893823673913644950320594232804843053171036306\",\r\n    \"amount\": \"0x1312d00\",\r\n    \"fromassethash\":\"0x473850cB9b3Ee1225304834DE679521d7f21d52f\",\r\n    \"tochainid\":\"79\",\r\n    \"encryptednote\":\"001\"，\r\n    \"fromchainid\" : \"2\"\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8554/depositccnoteout",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8554",
+					"path": [
+						"depositccnoteout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generateproof",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userid\": 9,\r\n    \"noteid\": \"1190648880634605246369050687209261009225088691018332518185314707372530393703\"\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8554/generateproof",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8554",
+					"path": [
+						"generateproof"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generateproof Cloud",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userid\": 9,\r\n    \"noteid\": \"44276046644235700243509279152043153459622841129398634161321939366990588173352\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "47.104.153.34:8554/generateproof",
+					"host": [
+						"47",
+						"104",
+						"153",
+						"34"
+					],
+					"port": "8554",
+					"path": [
+						"generateproof"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SpendCCNote",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"noteid\": \"0x2a1e225837a9d88014bdc388e3d4021876ab9ea592b132f7437e5a466e2e267\",\r\n    \"notereq\": \"0x32ff98d3095bcb779395bf4d6c8b77a1b3f2e6b6493a546066df1f568f28245\",\r\n    \"amount\": \"0x989680\",\r\n    \"recipient\" : \"0x22D1aB364210E18576621c4744CeF419cC2Df94A\", \r\n    \"fromchainid\":79,\r\n    \"userid\":9\r\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8554/spendccnote",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8554",
+					"path": [
+						"spendccnote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SpendCCNote Cloud",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"noteid\": \"0x61e35ab568c2c9b31f43e99c329fe6574a8e37e97120e558be3c3c789cc05c28\",\r\n    \"notereq\" : \"0xb5e2841fe41043d33528754c0cafb9af032cb397ba687343712e215e426a0634\",\r\n    \"amount\" : \"0x1c9c380\",\r\n    \"recipient\" : \"0x22D1aB364210E18576621c4744CeF419cC2Df94A\", \r\n    \"fromchainid\":79,\r\n    \"userid\":9\r\n}"
+				},
+				"url": {
+					"raw": "47.104.153.34:8554/spendccnote",
+					"host": [
+						"47",
+						"104",
+						"153",
+						"34"
+					],
+					"port": "8554",
+					"path": [
+						"spendccnote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Balance Cloud",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "47.104.153.34:8554/balance",
+					"host": [
+						"47",
+						"104",
+						"153",
+						"34"
+					],
+					"port": "8554",
+					"path": [
+						"balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Balance",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8554/balance",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8554",
+					"path": [
+						"balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "balance Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "47.104.153.34:8554/balance?userid=9  ",
+					"host": [
+						"47",
+						"104",
+						"153",
+						"34"
+					],
+					"port": "8554",
+					"path": [
+						"balance"
+					],
+					"query": [
+						{
+							"key": "userid",
+							"value": "9  "
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

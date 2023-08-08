@@ -1,0 +1,27 @@
+{
+  "request": {
+    "pk1": "0x26d264c0f94c7089a9be0782aba859f2977447f023085af54e02f0e1039fe3ce",
+    "pk2": "0x7bcc180572b26488368240bb84114cf42eed9e708a03f6f431555fd8e135092",
+    "amount": "0x1c9c380",
+    "tochainid": 79,
+    "fromassethash": "0x727B715a3EaCb71A89C9321861a55eadc6f29A49",
+    "encryptednote": "001",
+    "fromchainid": 2,
+    "userid": 0
+  },
+  "noteid": "0x13b8ea1ce15d29521f25eecff4e780e8bfa04a24c06f128e6508aa4f6847743e",
+  "notereq": "0x0",
+  "rootdigest": "0x0",
+  "leaf": "0x0",
+  "pathdigest0": "0x0",
+  "pathdigest1": "0x0",
+  "direction": [
+    "0x0",
+    "0x0"
+  ],
+  "privkey": "0x0",
+  "status": "Included",
+  "fromtx": "0x38bd038716e0b5731c31643ca5022783562bea741149d51640864b49261a8486",
+  "fromaddress": "0xaf2518cb013d9e917ecf11ea1e4f8d16d2e913ec",
+  "blockno": 0
+}

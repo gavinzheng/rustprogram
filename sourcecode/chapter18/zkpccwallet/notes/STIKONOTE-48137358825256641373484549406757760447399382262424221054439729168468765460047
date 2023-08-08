@@ -1,0 +1,26 @@
+{
+  "request": {
+    "pk1": "0x26d264c0f94c7089a9be0782aba859f2977447f023085af54e02f0e1039fe3ce",
+    "pk2": "0x7bcc180572b26488368240bb84114cf42eed9e708a03f6f431555fd8e135092",
+    "amount": "0x5b8d80",
+    "tochainid": 2,
+    "fromassethash": "0xD06119c64bBf89Cd09281e6bBd70a2B361F64a51",
+    "encryptednote": "10006",
+    "fromchainid": 79,
+    "userid": 0
+  },
+  "noteid": "0x6a6cc792532c3a01c4cdf8e62f28b44a7b2a1a4a8801d5253dbc14caa96a464f",
+  "notereq": "0x763214ba4e740d17d892cc7cc04e74ef1601cb8408aca59d225c0d7a6a9008d1",
+  "rootdigest": "0x97681e6a233ee9fd30f7328701c20ce68b4e5107eaff1db649988979743eaa3b",
+  "leaf": "0x763214ba4e740d17d892cc7cc04e74ef1601cb8408aca59d225c0d7a6a9008d1",
+  "pathdigest0": "0x0",
+  "pathdigest1": "0xf5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+  "direction": [
+    "0x0",
+    "0x0"
+  ],
+  "status": "Transferred",
+  "fromtx": "0xc607fbe1933d03d3079e02b57c141edc730e6691fcfb10444edc1e666b147733",
+  "fromaddress": "0xaf2518cb013d9e917ecf11ea1e4f8d16d2e913ec",
+  "blockno": 11724158
+}

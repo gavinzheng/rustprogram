@@ -1,0 +1,760 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "argsBs",
+				"type": "bytes"
+			},
+			{
+				"name": "fromContractAddr",
+				"type": "bytes"
+			},
+			{
+				"name": "fromChainId",
+				"type": "uint64"
+			}
+		],
+		"name": "depositCCIn",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[19]"
+			}
+		],
+		"name": "verifyTx",
+		"outputs": [
+			{
+				"name": "r",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "fromAssetHash",
+				"type": "address"
+			},
+			{
+				"name": "toChainId",
+				"type": "uint64"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "pk1",
+				"type": "uint256"
+			},
+			{
+				"name": "pk2",
+				"type": "uint256"
+			},
+			{
+				"name": "encryptedNote",
+				"type": "string"
+			}
+		],
+		"name": "depositCCOut",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[19]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "fromAssetHash",
+				"type": "address"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "createNote",
+		"outputs": [
+			{
+				"name": "id",
+				"type": "bytes32"
+			},
+			{
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "fromAssetHash",
+				"type": "address"
+			},
+			{
+				"name": "toChainId",
+				"type": "uint64"
+			},
+			{
+				"name": "toAssetHash",
+				"type": "bytes"
+			}
+		],
+		"name": "bindAssetHash",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "toChainId",
+				"type": "uint64"
+			},
+			{
+				"name": "targetProxyHash",
+				"type": "bytes"
+			}
+		],
+		"name": "bindProxyHash",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "allnotes",
+		"outputs": [
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "nonce",
+				"type": "uint256"
+			},
+			{
+				"name": "ChainId",
+				"type": "uint64"
+			},
+			{
+				"name": "fromAssetHash",
+				"type": "address"
+			},
+			{
+				"name": "fromadderss",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "merklehistory",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "address"
+			},
+			{
+				"name": "",
+				"type": "uint64"
+			}
+		],
+		"name": "assetHashMap",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "fromAssetHash",
+				"type": "address"
+			}
+		],
+		"name": "getBalanceFor",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "allnoteids",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "renounceOwnership",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "chainid",
+				"type": "uint32"
+			}
+		],
+		"name": "SetChainId",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "isOwner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "chainId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "uint64"
+			}
+		],
+		"name": "proxyHashMap",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "allInputZKPNotes",
+		"outputs": [
+			{
+				"name": "toAssetHash",
+				"type": "bytes"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "pk1",
+				"type": "uint256"
+			},
+			{
+				"name": "pk2",
+				"type": "uint256"
+			},
+			{
+				"name": "toChainId",
+				"type": "uint64"
+			},
+			{
+				"name": "noteid",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "stikonotereq",
+		"outputs": [
+			{
+				"name": "toAssetHash",
+				"type": "bytes"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "pk1",
+				"type": "uint256"
+			},
+			{
+				"name": "pk2",
+				"type": "uint256"
+			},
+			{
+				"name": "toChainId",
+				"type": "uint64"
+			},
+			{
+				"name": "noteid",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "ethCCMProxyAddr",
+				"type": "address"
+			}
+		],
+		"name": "setManagerProxy",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "merkle",
+				"type": "address"
+			}
+		],
+		"name": "SetMerkletreeAddress",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "stikonotereqstate",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "managerProxyContract",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "allInputZKPNotereqstate",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "gnonce",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "fallback"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "noteid",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "reqhash",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "toAssetHash",
+				"type": "bytes"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "arr",
+				"type": "bytes32[4]"
+			},
+			{
+				"indexed": false,
+				"name": "directionSelector",
+				"type": "bool[2]"
+			}
+		],
+		"name": "ZKPInputEvent",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "noteid",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "length",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "fromAssetHash",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "fromAddress",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "toChainId",
+				"type": "uint64"
+			},
+			{
+				"indexed": false,
+				"name": "toAssetHash",
+				"type": "bytes"
+			}
+		],
+		"name": "ZKPOutputEvent",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "reqhash",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "ZKPNoteSpent",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "toAssetHash",
+				"type": "bytes"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "pk1",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "pk2",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "toChainId",
+				"type": "uint64"
+			},
+			{
+				"indexed": false,
+				"name": "noteid",
+				"type": "bytes32"
+			}
+		],
+		"name": "DeserializeEvent",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	}
+]

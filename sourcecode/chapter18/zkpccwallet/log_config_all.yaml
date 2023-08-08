@@ -1,0 +1,83 @@
+appenders:
+  stdout_logger:
+    kind: console
+    encoder:
+      pattern: "{h({d(%Y-%m-%d %H:%M:%S)(utc)} - {l}: {m}{n})}"
+  main_file_logger:
+    kind: rolling_file
+    path: "logs/main.log"
+    encoder:
+      pattern: "{d(%Y-%m-%d %H:%M:%S)(utc)} - {h({l})}: {m}{n}"
+    policy:
+      trigger:
+        kind: size
+        limit: 10mb
+      roller:
+        kind: fixed_window
+        base: 1
+        count: 10
+        pattern: "logs/main{}.log"
+  depositnote_file_logger:
+    kind: rolling_file
+    path: "logs/depositnote.log"
+    encoder:
+      pattern: "{d(%Y-%m-%d %H:%M:%S.%f)(utc)} - {h({l})}: {m}{n}"
+    policy:
+      trigger:
+        kind: size
+        limit: 10mb
+      roller:
+        kind: fixed_window
+        base: 1
+        count: 10
+        pattern: "logs/depositnote{}.log"
+  spendnote_file_logger:
+    kind: rolling_file
+    path: "logs/spendnote.log"
+    encoder:
+      pattern: "{d(%Y-%m-%d %H:%M:%S.%f)(utc)} - {h({l})}: {m}{n}"
+    policy:
+      trigger:
+        kind: size
+        limit: 10mb
+      roller:
+        kind: fixed_window
+        base: 1
+        count: 10
+        pattern: "logs/spendnote{}.log"  
+  zokrates_file_logger:
+    kind: rolling_file
+    path: "logs/spendnote.log"
+    encoder:
+      pattern: "{d(%Y-%m-%d %H:%M:%S.%f)(utc)} - {h({l})}: {m}{n}"
+    policy:
+      trigger:
+        kind: size
+        limit: 10mb
+      roller:
+        kind: fixed_window
+        base: 1
+        count: 10
+        pattern: "logs/zokrates{}.log"             
+root:
+  level: debug
+  appenders:
+    - stdout_logger
+    - main_file_logger
+    - zokrates_file_logger
+loggers:
+  deposit:
+    level: debug
+    appenders:
+      - depositnote_file_logger
+    additive: false
+  spend:
+    level: info
+    appenders:
+      - spendnote_file_logger
+    additive: false
+  zok:
+    level: info
+    appenders:
+      - zokrates_file_logger
+    additive: false  

@@ -1,0 +1,1343 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[4]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote011",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[4]"
+			}
+		],
+		"name": "spendNote013",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			}
+		],
+		"name": "spendNote005",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[8]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote008",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[19]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[8]"
+			}
+		],
+		"name": "spendNote014",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote012",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[16]"
+			}
+		],
+		"name": "spendNote016",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[12]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote009",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input001",
+				"type": "uint256[16]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote007",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[12]"
+			}
+		],
+		"name": "spendNote015",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote003",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[19]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNoteOrig",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			}
+		],
+		"name": "spendNote001",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote002",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[19]"
+			}
+		],
+		"name": "spendNote004",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[5]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote017",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input",
+				"type": "uint256[6]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote010",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "input001",
+				"type": "uint256[16]"
+			},
+			{
+				"name": "input002",
+				"type": "uint256[3]"
+			},
+			{
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "spendNote006",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[19]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			}
+		],
+		"name": "ZKPNoteSpentnote001",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote002",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote003",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[19]"
+			}
+		],
+		"name": "ZKPNoteSpentnote004",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			}
+		],
+		"name": "ZKPNoteSpentnote005",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input001",
+				"type": "uint256[16]"
+			},
+			{
+				"indexed": false,
+				"name": "input002",
+				"type": "uint256[3]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote006",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input001",
+				"type": "uint256[16]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote007",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[8]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote008",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[12]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote009",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[6]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote010",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[4]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote011",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote012",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[4]"
+			}
+		],
+		"name": "ZKPNoteSpentnote013",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[8]"
+			}
+		],
+		"name": "ZKPNoteSpentnote014",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[12]"
+			}
+		],
+		"name": "ZKPNoteSpentnote015",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[16]"
+			}
+		],
+		"name": "ZKPNoteSpentnote016",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "a",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "b",
+				"type": "uint256[2][2]"
+			},
+			{
+				"indexed": false,
+				"name": "c",
+				"type": "uint256[2]"
+			},
+			{
+				"indexed": false,
+				"name": "input",
+				"type": "uint256[5]"
+			},
+			{
+				"indexed": false,
+				"name": "array",
+				"type": "uint256[8]"
+			},
+			{
+				"indexed": false,
+				"name": "notereq",
+				"type": "bytes32"
+			},
+			{
+				"indexed": false,
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "recipient",
+				"type": "address"
+			}
+		],
+		"name": "ZKPNoteSpentnote017",
+		"type": "event"
+	}
+]

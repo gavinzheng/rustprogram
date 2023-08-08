@@ -1,0 +1,24 @@
+{
+  "request": {
+    "pk1": "0x26d264c0f94c7089a9be0782aba859f2977447f023085af54e02f0e1039fe3ce",
+    "pk2": "0x7bcc180572b26488368240bb84114cf42eed9e708a03f6f431555fd8e135092",
+    "amount": "0xbebc200",
+    "tochainid": 79,
+    "fromassethash": "473850cB9b3Ee1225304834DE679521d7f21d52f",
+    "encryptednote": "test001",
+    "fromchainid": 2
+  },
+  "noteid": "0x73453476b05f2021657e4d28d08ea4cc8f92c3abb972517a24cc746e73867153",
+  "notereq": "0x3965ee23f80a3a8670fc6f3badc7164eded9c2488eee84a97e30ad9ea8525495",
+  "rootdigest": "0x0",
+  "leaf": "0x0",
+  "pathdigest0": "0x0",
+  "pathdigest1": "0x0",
+  "direction": [
+    "0x0",
+    "0x0"
+  ],
+  "privkey": "0x0",
+  "status": "Included",
+  "fromtx": "0xd0a27991961faf7b13c70c0fd2be82dce0c64cc13a9905506ab68a531db70fc2"
+}
