@@ -6,5 +6,5 @@ use sports::Football;
 // use self::sports::football;	// OK 因为mod和main在同一个文件
 
 fn main() { // 主程序
-    let _playing = Football::manifest(); 
+    let _playing = Football::whoami(); 
 }

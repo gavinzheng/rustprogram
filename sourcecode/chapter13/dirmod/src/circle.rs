@@ -13,6 +13,6 @@ impl Circle {
   //   2 *PI * radius 
   // }
   pub fn whoami() {
-    println!("Curret shape is Circle")
+    println!("Current shape is Circle")
   }
 }

@@ -11,7 +11,7 @@ impl Rectangle {
   //   2 *(width + length) 
   // }
   pub fn whoami()  {
-    println!("Curret shape is Rectangle")
+    println!("Current shape is Rectangle")
   }
 }
 

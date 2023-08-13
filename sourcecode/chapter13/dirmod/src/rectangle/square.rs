@@ -10,7 +10,7 @@ impl Square {
   //   4 * width  
   // }
   pub fn whoami()  {
-    println!("Curret shape is Square")
+    println!("Current shape is Square")
   }
 }
 

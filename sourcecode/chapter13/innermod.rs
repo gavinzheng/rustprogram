@@ -11,5 +11,5 @@ use self::sports::*;
 
 fn main() { 
   let playing = Football; 
-  let playing = Volleyball;
+  // let playing = Volleyball;
 }

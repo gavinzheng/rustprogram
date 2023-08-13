@@ -4,7 +4,7 @@ struct Basketball;
 struct Volleyball; 
 
 impl Football{
-  pub fn manifest(){
-    println!("football manifest");
+  pub fn whoami(){
+    println!("This is football");
   }
 }

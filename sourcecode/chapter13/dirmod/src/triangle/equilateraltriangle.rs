@@ -7,6 +7,6 @@ impl EquilateralTriangle {
   //   // 2 *(width + length) 
   // }
   pub fn whoami() {
-    println!("Curret shape is EquilateralTriangle")
+    println!("Current shape is EquilateralTriangle")
   }
 }

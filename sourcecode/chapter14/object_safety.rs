@@ -1,6 +1,6 @@
 
 trait SomeTrait  {
-    fn someTrait();
+    fn someTraitMethod ();
 }
 
 fn CallSomeTrait (val: &SomeTrait ) {

@@ -14,9 +14,11 @@ fn main(){
 }
 fn stack_procedure(mut param: Coord){
   param.x += 100;
-  println!("In stack_procedure with param ");
+  println!("In stack_procedure with param {}",param.x);
 }
 
 fn heap_procedure(param: Box<i32> ){	// 拷贝转移所有权给param，函数返回时，param被释放
-  println!("In heap_procedure with param ");
+   let mut inner_param = param;
+   *inner_param += 300;
+   println!("In heap_procedure with param {}", *inner_param);
 }
