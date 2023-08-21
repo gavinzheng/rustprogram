@@ -16,7 +16,7 @@ impl Hasher for MyHasher {
         for byte in bytes {
             self.count = self.count.wrapping_add(*byte as u64);
         }
-        // println!("count: {}", self.count);
+        println!("count: {}", self.count);
     }
 }
 
@@ -31,12 +31,13 @@ fn main() {
     // 仅用于示例：<u8, u8> 
     let map: HashMap<u8, u8> = HashMap::with_hasher(RandomState::new());
 
-    let mut map = HashMap::with_hasher(MyHasher { count: 56789 });
+    let mut map = HashMap::with_hasher(MyHasher { count: 1 });
     map.insert("Milly", "Gavin");
-    map.insert("illyM", "Milly");
+    //map.insert("Milly", "AAAA");
+    map.insert("iMlly", "Milly");
 
     println!("map[Milly]: {}",map.get("Milly").unwrap());
-    println!("map[illyM]: {}",map.get("illyM").unwrap());
+    println!("map[iMlly]: {}",map.get("iMlly").unwrap());
     // map.insert(10, 100);
     // map.insert(20, 200);
 
