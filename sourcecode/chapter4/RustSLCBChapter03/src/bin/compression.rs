@@ -22,7 +22,7 @@ fn main() {
     println!("Decoded: {:?}", decoded);
 
     // Open file to compress
-    let original = File::open("ferris.png").expect("Failed to open file");
+    let original = File::open("sample_ext\\src\\images\\B05117_11_01.png").expect("Failed to open file");
     let mut original_reader = BufReader::new(original);
 
     // Compress it

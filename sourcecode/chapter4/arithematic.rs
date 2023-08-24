@@ -7,4 +7,5 @@ fn main() {
   let big_val = std::i32::MAX; 
   //let x = big_val + 1; // 算术操作溢出，引发panic 
   let x = big_val.wrapping_add(1); // ok 
+  println!("{}", big_val); 
 } 

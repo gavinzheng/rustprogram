@@ -8,6 +8,6 @@ impl Drop for student {
   } 
 } 
 fn main() { 
-  let zhang= student { name: "张三".into(), no: 1000 }; 
-  let li = student { name: "李四".into(), no: 1001 }; 
+  let zheng= student { name: "嘉文".into(), no: 1000 }; 
+  let mi = student { name: "米莉".into(), no: 1001 }; 
 } 
