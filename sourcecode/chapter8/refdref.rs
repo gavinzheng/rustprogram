@@ -7,7 +7,7 @@ fn separate() {
   let strOrig = Box::new(String::new()); 
   let temp = *strOrig ; 
   let pointer = &temp ; 
-  println!("{} {}", pointer , strOrig ); 
+  //println!("{} {}", pointer , strOrig ); 
 } 
 fn main() { 
   joinuse(); 
