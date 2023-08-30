@@ -1,0 +1,8 @@
+[package]
+name = "retryable"
+version = "0.1.0"
+authors = ["Mat Wood <mat@thepacketgeek.com>"]
+edition = "2018"
+
+[dev-dependencies]
+rand = "0.7"

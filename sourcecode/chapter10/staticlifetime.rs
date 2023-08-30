@@ -2,10 +2,10 @@ use std::{slice::from_raw_parts, str::from_utf8_unchecked};
 
 fn get_memory_location() -> (usize, usize) {
   
-  // 但持有它的变量 `string` 的生命周期就不一样了，它完全取决于变量作用域，对于该例子来说，也就是当前的函数范围
-  let string = "Hello Milly!";    // “Hello World” 是字符串字面量，因此它的生命周期是 `'static`.
-  let pointer = string.as_ptr() as usize;
-  let length = string.len();
+  // 但持有它的变量 `localstring` 的生命周期就不一样了，它完全取决于变量作用域，对于该例子来说，也就是当前的函数范围
+  let localstring  = "Hello Milly!";    // “Hello World” 是字符串字面量，因此它的生命周期是 `'static`.
+  let pointer = localstring .as_ptr() as usize;
+  let length = localstring .len();
   (pointer, length)
   // `string` 在这里被 drop 释放
   // 虽然变量被释放，无法再被访问，但是数据依然还会继续存活
