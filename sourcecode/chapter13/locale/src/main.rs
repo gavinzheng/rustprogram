@@ -2,6 +2,11 @@ use locale::*;
 fn main() {
     let mut l = user_locale_factory();
 
+    let aaa = l.get_numeric();
+    // if Some(aaa){
+    //     println!("{}", aaa);
+    // }
+
     let numeric_locale = l.get_numeric().unwrap();
     println!(
         "Numbers: decimal sep: {} thousands sep: {}",

@@ -6,10 +6,15 @@ fn main() {
 	// 报错！不能隐式转换类型 
 	// let integer: u8 = decimal; // 注释掉此行，继续进行编译 
 	
+	let mut int = 65.6_f32 as u8;
 	// 显式转换类型 
 	let integer = decimal as u8; 
 	let character = integer as char; 
-	println!("Casting: {} -> {} -> {}", decimal, integer, character); 
+	println!("Casting: {} -> {} -> {} ->{}", decimal, integer, character,int); 
+
+	int = 1e6 as u8;
+	println!("1e6: {}", int);
+	
 	// 当将任意整数值转成无符号类型(unsigned 类型) T 时， 
 	// 将会加上或减去 std::T::MAX + 1，直到值符合新的类型 
 	// 1000 原本就符合 u16 类型 

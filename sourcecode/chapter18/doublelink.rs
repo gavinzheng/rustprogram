@@ -43,6 +43,6 @@ impl<T> LinkedList<T> {
 }
 
 fn main() {
-    let numbers = LinkedList::new().append(10).append(20);//.append(30).append(40);
+    let numbers = LinkedList::new().append(10).append(20).append(30).append(40);
     println!("numbers: {:?}", numbers);
 }

@@ -3,13 +3,13 @@ fn main(){
   let mut var_a = String::from("This is a test");	
   // var_a.push('a');	
 
-  let var_b = &mut var_a;
-  // let var_b = &var_a;
-  // var_b.push('b');
+  let var_b = &var_a;
+  //let mut var_b = &var_a;
+  //var_b.push('b');
  
   let var_c = &var_a;
 
-  // var_a.push('a');
+  var_a.push('a');
   //println!("{}", var_a);
   println!("{} {}", var_a, var_b);
   // println!("{} {} {}", var_a, var_b, var_c);
