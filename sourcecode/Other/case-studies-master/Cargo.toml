@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "bitfield-assertion/demo",
+    "bitfield-assertion/demo/bitfield",
+    "bitfield-assertion/demo/impl",
+    "callable-types/demo",
+    "function-epilogue/demo",
+    "integer-match/demo",
+    "readonly-fields/demo",
+    "unit-type-parameters/demo",
+]

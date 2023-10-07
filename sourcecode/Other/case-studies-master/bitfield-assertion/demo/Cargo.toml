@@ -1,0 +1,13 @@
+[package]
+name = "case-study-bitfield-assertion"
+version = "0.0.0"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "case-study"
+path = "main.rs"
+
+[dependencies]
+bitfield = { path = "bitfield" }
