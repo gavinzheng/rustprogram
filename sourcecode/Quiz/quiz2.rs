@@ -3,7 +3,7 @@ impl std::ops::BitAnd<S> for () {
     type Output = ();
 
     fn bitand(self, rhs: S) {
-        print!("{}", rhs.0);
+        println!("{}", rhs.0);
     }
 }
 fn main() {
